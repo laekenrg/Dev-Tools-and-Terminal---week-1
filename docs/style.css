@@ -1,0 +1,135 @@
+body{
+  margin: 0;
+  min-height:100vh;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/98/Fawn-pug-and-black-pug.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  }
+body:before{
+  content:"";
+  width:100%;
+  min-height:100vh;
+  position:fixed;
+  top:0;
+  left:0;
+  
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+ background-blend-mode: multiply;
+  
+  opacity:0.6;
+  z-index:-1;
+}
+.pug-principal{
+  font-family: 'Anton', sans-serif;
+  color: white;
+  text-align:center;
+  width:100%;
+  text-transform:uppercase;
+  font-size:150px;
+  font-weight:bold;
+}
+*{
+  padding: 0px;
+  margin: 0px;
+}
+#menu{
+  margin:auto;
+  width:500px;
+  font-family: 'Anton', sans-serif;
+}
+ul{
+  list-style:none;
+}
+.secciones li a{
+  background-color:#509E22;
+  color:#B4E995;
+  text-decoration:none;
+  padding:4px 5px;
+  display:block;
+}
+.secciones li a:hover{
+  background-color:#357D0B;
+}
+.secciones > li{
+  float:left;
+}
+.secciones li ul {
+  display:none;
+  position: absolute;
+  min-width: 100px;
+ }
+.secciones li:hover > ul {
+  display:block;
+}
+
+.reseña-contenido{
+  padding:40px;
+  margin-top: -30px;
+  font-family: arial ;
+  color:white;
+  font-size:18px;
+  
+}
+.pug-black{
+  margin:20px;
+  border:6px solid #8FD665;
+}
+p{
+  padding:40px;
+  margin-top: -50px;
+  font-family: arial ;
+  color:white;
+  font-size:18px;
+  line-height:25px;
+}
+
+h2{
+  padding:40px;
+  margin-top: 150px;
+  font-family: 'Anton', sans-serif;
+  color:white;
+  font-size:50px;
+  text-align:left
+    ;
+}
+.negritas-text{
+  color:#8FD665;
+  }
+#border-divisor{
+  border:3px solid #8FD665;
+  border-radius:22px;
+  width:85%;
+  margin-left: 80px;
+  margin-top:10px;
+  }
+#contacto{
+  color:#8FD665;
+  font-family: 'Anton', sans-serif;
+  background-color:#357D0B;
+
+}
+#bandera-china{
+  width:50px;
+  margin-left:15px;
+}
+#pug-marron {
+  width:250px;
+  float:left;
+ margin-right:15px;
+  border:3px solid #8FD665;
+}
+#pug-variantes{
+  width:500px;
+}
+.descripcion-info{
+  width:80%;
+  height:400px;
+  overflow:auto;
+  margin-bottom:100px;
+}
+.pug-bebe{
+  border:6px solid #8FD665;
+  margin-bottom:40px;
+}
